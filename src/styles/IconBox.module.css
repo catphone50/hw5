@@ -1,0 +1,42 @@
+.headerContainer {
+  border: 1px solid #1ed760;
+  padding: 40px 60px;
+  border-radius: 65px;
+  display: flex;
+  column-gap: 18px;
+}
+
+.apple,
+.google,
+.exe {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+}
+
+.apple {
+  background-image: url("../assets/apple.svg");
+}
+.google {
+  background-image: url("../assets/google.svg");
+}
+.exe {
+  background-image: url("../assets/x.svg");
+  width: 106px;
+}
+
+.apple:hover {
+  background-image: url("../assets/appleblue.svg");
+  transform: translateY(-10px);
+}
+.google:hover {
+  background-image: url("../assets/googleblue.svg");
+  transform: translateY(-10px);
+}
+.exe:hover {
+  background-image: url("../assets/xblue.svg");
+  transform: translateY(-10px);
+}
